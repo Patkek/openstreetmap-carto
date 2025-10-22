@@ -1573,6 +1573,12 @@
     marker-clip: false;
   }
 
+  [feature = 'barrier_jersey_barrier'][zoom >= 17]::barrier {
+    marker-file: url('symbols/barrier/jersey_barrier.svg');
+    marker-fill: @barrier-icon;
+    marker-clip: false;
+  }
+
   [feature = 'barrier_bollard'],
   [feature = 'barrier_block'],
   [feature = 'barrier_log'],
